@@ -7,10 +7,10 @@ const LoginPage = () => {
 
   return (
     <div>
-      <h1> Login Page</h1>;
+      <h1> Welcome Asthma Tracking</h1>
       <Button
-        title="Go to Patient Info"
-        onPress={() => navigation.navigate("patientinfo")}
+        title="Go to Question Page"
+        onPress={() => navigation.navigate("questionpage")}
       />
     </div>
   );
